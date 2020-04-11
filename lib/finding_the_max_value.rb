@@ -6,6 +6,8 @@ def find_max_value(array)
       largest_number = array[i]
     end
     i += 1
+    puts i
+    puts largest_number
   end
   return largest_number
 end
